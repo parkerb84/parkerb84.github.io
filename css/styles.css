@@ -1,11 +1,11 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #1e90ff;
 }
 .description-class{
 	font: normal small-caps normal 24px/1.4 Georgia;
-	color: #0058FF;
+	color: #003366;
 }
 .current-class{
 	font-weight: bold;

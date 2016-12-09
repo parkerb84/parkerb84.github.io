@@ -3,6 +3,9 @@ body {
   color: #fff;
   background-color: #1e90ff;
 }
+address {
+  margin-bottom: 0;
+}
 .description-class{
 	font: normal small-caps normal 24px/1.4 Georgia;
 	color: #003366;

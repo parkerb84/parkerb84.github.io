@@ -1,0 +1,21 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #1e90ff;
+}
+address {
+  margin-bottom: 0;
+}
+.description-class{
+	font: normal small-caps normal 24px/1.4 Georgia;
+	color: #003366;
+}
+.current-class{
+	font-weight: bold;
+	font-size: 28px;
+}
+.footer-class{
+	font-size: 24px;
+	background-color: #0041FF;
+	color: white;
+}

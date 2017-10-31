@@ -1,22 +1,22 @@
-/* Global styles 
+/* Color Palette
+#F7F7F2 - White
+#0091E0 - Light Blue
+#031A6B - Blue
+#001C55 - Navy Blue
+#061A40 - Dark Blue
+*/
+
+/* Global styles
 ------------------------------------*/
-/* border box fix */
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-}
-a {
-    color: #EF233C;
-}
-a:hover {
-    text-decoration: none;
 }
 h1, h2 {
   font-family: 'Caveat', cursive;
@@ -27,73 +27,66 @@ h1 {
 }
 h2 {
   font-size: 40px;
-  margin-top: 0;
+  margin-top: 0px;
 }
+a {
+  color: #0091E0;
+}
+a:hover {
+  text-decoration: none;
+}
+
 .content-wrap {
   max-width: 950px;
-  margin: 0 auto;
   padding: 50px;
-  overflow: hidden;
+  margin: 0 auto;
+  overflow: auto;
 }
-
-.column-narrow {
-  width: 35%;
+.col-narrow {
+  width: 30%;
   float: left;
-  padding-right: 3%;
+  min-height: 175px;  
+}
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
   min-height: 175px;
 }
-.column-wide {
-  width: 62%;
-  float: left;
-  min-height: 175px;
-}
 
 
-
-/* Header & Footer 
+/* Header & Footer
 ------------------------------------*/
-header, 
-footer {
-  background: #2B2D42;
-  color: #8D99AE;
+header, footer {
+  background: #061A40;
+  color: #0091E0;
 }
-header h1,
-header h2 {
-    color: #EDF2F4;
-    margin: 0;
-}
-
-/* Header styles only */
-header {
-  /*text-align: center;*/
+/* Header */
+header h1,header h2 {
+  color: #F7F7F2;
+  margin: 0;
 }
 .profile-img {
-  /*width: 300px;*/
   border-radius: 50%;
-  /*float: left;*/
-  /*margin-right: 30px;*/
 }
-
-/* Footer styles only */
+/* Footer */
 footer {
   text-align: center;
 }
-.contact-info a {
+.contact-info a{
   padding: 10px;
   display: inline-block;
 }
 
-
-
 /* Work Experience
 ------------------------------------*/
 .work {
-    background: #EDF2F4;
+  background: #F7F7F2;
 }
 
 
 /* Education
 ------------------------------------*/
 .education {
-    background: #8D99AE;
+  background: #0091E0;
 }

@@ -4,58 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benjamin Parker | Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- // Intro -->
     <header>
-        <img src="your-picture.jpg" alt="Benjamin Parker Profile Photo">
-        <h1>Benjamin Parker</h1>
-        <h2>Support Analyst + Web Developer</h2>
-        <p>As a Support Analyst, I specialize in assisting people with their system issues that range from being locked out to finding out what system is locking them.  As a web developer I make web apps to assist the support team recording and displaying information quickly and effectively.</p>
+      <div class="content-wrap">
+        <img class="profile-img col-narrow" src="images/BenProfile.jpg" alt="Benjamin Parker Profile Photo">
+        <div class="col-wide">
+          <h1>Benjamin Parker</h1>
+          <h2>Support Analyst + Web Developer</h2>
+          <p>As a Support Analyst, I specialize in assisting people with their system issues that range from being locked out to finding out what system is locking them.  As a web developer I make web apps to assist the support team recording and displaying information quickly and effectively.</p>
+        </div>
+      </div>
     </header>
 
     <main>
         <!-- // Work Experience -->
-        <section>
+        <section class="work">
+          <div class="content-wrap">
             <h2>Work Experience</h2>
 
             <!-- Job Details: copy this whole block to add more jobs -->
-            <h3>Support Analyst</h3>
-            <p>Philadelphia Media Network</p>
-            <p>2007 to Present</p>
+            <div class="col-narrow">
+              <h3>Support Analyst</h3>
+              <p>Philadelphia Media Network</p>
+              <p>2007 to Present</p>
+            </div>
 
+            <div class="col-wide">
             <!-- Add as many paragraphs as you need. -->
-            <p>Handled help desk operations assisted users in operating their PCs.</p>
+              <p>Handled help desk operations assisted users in operating their PCs.</p>
 
-            <!-- This list can be deleted if you don't want to use it. -->
-            <p>Key Contributions:</p>
-            <ul>
-                <li>Created PC Finder, a web app to see who logged into certain computers and what are the hardware specs of those computers.</li>
-                <li>Installed SCCM 2016 to assist in remote connections and remote installations in windows PC.</li>
-                <li>Responsible for Inventory Web App that helps keep track of Laptops, Tablets and other mobile devices.</li>
-                <li>Assisted in Audio Visual connections for department wide meetings.</li>
-                <li>Experience with JavaScript, JQuery, Git, GitHub, Ruby, Rails, HTML, CSS, and Heroku</li>
-                <li>Gave training lessions on eVault, our automatic e-mail archiving system.</li>
-            </ul>
+              <!-- This list can be deleted if you don't want to use it. -->
+              <p>Key Contributions:</p>
+              <ul>
+                  <li>Created PC Finder, a web app to see who logged into certain computers and what are the hardware specs of those computers.</li>
+                  <li>Installed SCCM 2016 to assist in remote connections and remote installations in windows PC.</li>
+                  <li>Responsible for Inventory Web App that helps keep track of Laptops, Tablets and other mobile devices.</li>
+                  <li>Assisted in Audio Visual connections for department wide meetings.</li>
+                  <li>Experience with JavaScript, JQuery, Git, GitHub, Ruby, Rails, HTML, CSS, and Heroku</li>
+                  <li>Gave training lessions on eVault, our automatic e-mail archiving system.</li>
+              </ul>
+            </div>
+            <div class="col-narrow">
+              <h3>Computer Repair Consultant</h3>
+              <p>Self Employed</p>
+              <p>2010 to Present</p>
+            </div>
 
-            <h3>Computer Repair Consultant</h3>
-            <p>Self Employed</p>
-            <p>2010 to Present</p>
+            <div class="col-wide">
+              <p>Handled many computer repairs ranging from simple file transfer to replacements of laptop screens</p>
 
-            <p>Handled many computer repairs ranging from simple file transfer to replacements of laptop screens</p>
-
-            <p>Key Responsibilities:</p>
-            <ul>
-              <li>Fixed Laptop Screens, reimaged computers, recovered data, replaced hard drives, and provided assistance in computer operations</li>
-              <li>Given advice on computer hardware setups and software purchases</li>
-              <li>Assisted Shorline Productions Head Producer</li>
-            </ul>
-
+              <p>Key Responsibilities:</p>
+              <ul>
+                <li>Fixed Laptop Screens, reimaged computers, recovered data, replaced hard drives, and provided assistance in computer operations</li>
+                <li>Given advice on computer hardware setups and software purchases</li>
+                <li>Assisted Shorline Productions Head Producer</li>
+              </ul>
+            </div>
+          </div>
         </section>
         <!-- end of Job Details block. -->
 
         <!-- // Education -->
-        <section>
+        <section class="education">
+          <div class="content-wrap">
             <h2>Education</h2>
 
             <!-- School details: copy this whole block to add more schools. -->
@@ -65,15 +80,17 @@
             <!-- Add as many paragraphs as you need. -->
             <p>Informations Systems Major with a minor in business</p>
             <!-- End of school details. -->
+          </div>
         </section>
     </main>
 
     <!-- // Footer & contact info -->
     <footer>
+      <div class="content-wrap">
         <h2>Let's Keep in Touch!</h2>
 
         <!-- Social media and contact links. Add or remove any networks. -->
-        <div>
+        <div class="contact-info">
             <a href="mailto:benjamin.frank.parker@gmail.com">benjamin.frank.parker@gmail.com</a>
             <a href="https://shielded-atoll-60864.herokuapp.com/" target="_blank">PHP/Heroku WebApp Example</a>
             <a href="https://www.linkedin.com/in/benjamin-parker-76a70b24/" target="_blank">LinkedIn</a>
@@ -81,6 +98,7 @@
         </div>
 
         <p>Copyright 2017 by Benjamin Parker</p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

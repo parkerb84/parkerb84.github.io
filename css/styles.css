@@ -45,7 +45,8 @@ a:hover {
 .col-narrow {
   width: 30%;
   float: left;
-  min-height: 175px;  
+  min-height: 175px;
+  min-width: 175px;
 }
 .col-wide {
   width: 70%;

@@ -47,21 +47,31 @@ a:hover {
 
 .content-wrap {
   max-width: 950px;
-  padding: 10px;
+  padding: 60px 50px;
   margin: 0 auto;
-  overflow: auto;
+  overflow: hidden;
 }
 .col-narrow {
   width: 30%;
   float: left;
-  min-height: 175px;
   min-width: 175px;
 }
 .col-wide {
   width: 70%;
   float: left;
   padding-left: 20px;
-  min-height: 175px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.btn {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  display: inline-block;
 }
 
 
@@ -71,13 +81,24 @@ header, footer {
   background: #061A40;
   color: #0091E0;
 }
+header {
+  background: linear-gradient(rgba(0,145,224,1), rgba(0,145,224,0.7)),
+  url('../images/30thStreet.jpg') no-repeat fixed;
+  background-size: cover;
+  padding-top: 50px;
+  position: relative;
+}
 /* Header */
-header h1,header h2 {
+header h1,header h2, header p {
   color: #F7F7F2;
-  margin: 0;
 }
 .profile-img {
   border-radius: 50%;
+}
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 /* Footer */
 footer {
@@ -87,6 +108,24 @@ footer {
   padding: 10px;
   display: inline-block;
 }
+/* Navigation
+------------------------------------*/
+
+nav {
+  text-align: center;
+  background: white;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
 /* Work Experience
 ------------------------------------*/
@@ -94,9 +133,26 @@ footer {
   background: #F7F7F2;
 }
 
+h3 ~ p{
+  margin: 0;
+}
+.job-description {
+  margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+
 
 /* Education
 ------------------------------------*/
 .education {
-  background: #0091E0;
+  background: linear-gradient(rgba(0,145,224,0.9), rgba(0,145,224,0.5)),
+  url('../images/30thStreet.jpg') no-repeat fixed;
+  background-size: cover;
+  color: #000;
+  font-weight: 700;
+}
+p + h3 {
+  margin-top: 30px;
 }
